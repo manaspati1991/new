@@ -18,7 +18,7 @@ public class SwapOfTwoString {
 	    
 	    //string value  manaspati
 	     //               manas
-	    firstString=firstString+secondString;
+	    firstString=firstString;
 	    
 	    secondString=firstString.substring(0,firstString.length()-secondString.length());
 	    System.out.println(secondString);
